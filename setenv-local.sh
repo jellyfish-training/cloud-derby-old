@@ -75,4 +75,3 @@ export ZONE="europe-west4-a"
 export REGION_LEGACY="europe-west" # there are corner cases where gcloud still references the legacy nomenclature
 
 echo "setenv-local.sh: done"
-europe-west4europe-west4eur
