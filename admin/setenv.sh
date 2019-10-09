@@ -28,22 +28,22 @@ echo "setenv.sh: start..."
 source ../setenv-global.sh
 
 ### Billing accound ID used to pay for project resources
-BILLING_ACCOUNT_ID="<set your Billing ID here>"
+BILLING_ACCOUNT_ID="0191D2-541803-25C0E2"
 
 ### How many teams will participate in the workshop
-NUM_TEAMS=1
+NUM_TEAMS=2
 
 # In case we need to add extra teams - start with some number, otherwise set it to 1
 TEAM_START_NUM=1
 
 ### How many people per team
-NUM_PEOPLE_PER_TEAM=1
+NUM_PEOPLE_PER_TEAM=2
 
 ### Name of the event - to be added to user and group names
-EVENT_NAME="QA"
+EVENT_NAME="JF"
 
 ### Folder that holds all project sub-folders for users
-TOP_FOLDER="August-8-$EVENT_NAME"
+TOP_FOLDER="JF-Folder-$EVENT_NAME"
 
 ### Directory for temp data
 TMP="tmp"

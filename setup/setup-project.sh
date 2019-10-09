@@ -21,7 +21,7 @@
 #
 
 set -u # This prevents running the script if any of the variables have not been set
-set -e # Exit if error is detected during pipeline execution
+set -e # Exit if error is detected during pipeline executionml-static-ip-50
 
 TMP="tmp"
 CWD=$(pwd)

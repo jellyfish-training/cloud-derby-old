@@ -1,0 +1,34 @@
+# This file is auto-generated - DO NOT edit it manually as it will be overriden
+# Docs: https://cloud.google.com/appengine/docs/standard/nodejs/config/appref
+
+# App Engine Standard
+runtime: nodejs10
+
+# App Engine Flex
+# runtime: nodejs
+
+# This makes it run in App Engine Flex
+# env: flex
+
+manual_scaling:
+    instances: 1
+
+env_variables:
+    SENSOR_SUBSCRIPTION: sensor-data-subscription-2
+    COMMAND_TOPIC: driving-commands-topic-2
+    INFERENCE_USER_NAME: robot
+    INFERENCE_PASSWORD: gcp4all
+    INFERENCE_IP: 35.184.83.97
+    INFERENCE_URL: /v1/objectInference
+    HTTP_PORT: 8082
+    CAR_ID: 2
+    BALL_LABEL_SUFFIX: Ball
+    HOME_LABEL_SUFFIX: Home
+    BLUE_BALL_LABEL: BlueBall
+    RED_BALL_LABEL: RedBall
+    YELLOW_BALL_LABEL: YellowBall
+    GREEN_BALL_LABEL: GreenBall
+    BLUE_HOME_LABEL: BlueHome
+    RED_HOME_LABEL: RedHome
+    YELLOW_HOME_LABEL: YellowHome
+    GREEN_HOME_LABEL: GreenHome

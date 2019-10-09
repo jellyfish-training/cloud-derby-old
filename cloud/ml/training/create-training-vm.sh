@@ -119,7 +119,7 @@ create_gpu_vm()
       --boot-disk-size=70GB \
       --boot-disk-type=pd-ssd \
       --machine-type n1-highmem-2 \
-      --accelerator="type=nvidia-tesla-v100,count=$GPU_COUNT" \
+      --accelerator="type=nvidia-tesla-p100,count=$GPU_COUNT" \
       --service-account $ALLMIGHTY_SERVICE_ACCOUNT \
       --maintenance-policy TERMINATE \
       --restart-on-failure \
