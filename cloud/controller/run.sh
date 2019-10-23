@@ -101,7 +101,7 @@ create_resources
 # Lookup actual IP address for inference VM from the static reference
 if $USE_DEMO_INFERENCE ; then
   # Driving controller will be using the inference VM that has been stood up in advance in a different project
-  export INFERENCE_IP=$(gcloud compute addresses describe $DEMO_INFERENCE_IP_NAME --region europe-west4-a --format="value(address)" --project $DEMO_PROJECT)
+  export INFERENCE_IP=$(gcloud compute addresses describe $DEMO_INFERENCE_IP_NAME --region europe-west4 --format="value(address)" --project $DEMO_PROJECT)
 else
   # Find the IP of the inference VM that was created in this project
   export INFERENCE_IP=$(gcloud compute addresses describe $ML_IP_NAME --region $REGION --format="value(address)")
