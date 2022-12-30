@@ -30,7 +30,7 @@
     "@google-cloud/nodejs-repo-tools": "^3.3.0",
     "ava": "^2.4.0",
     "chai": "^4.2.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "semistandard": "^14.2.0",
     "supertest": "^4.0.2",
     "uuid": "^3.3.3"
